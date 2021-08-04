@@ -1,2 +1,2 @@
 # onlyfans
-I use this repo to host a joke I made on my linktree https://linktr.ee/1ups_
+I use this repo to host a joke I made on my linktree <https://linktr.ee/1ups_>
