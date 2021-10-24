@@ -5,9 +5,13 @@ function resolution() {
     width = screen.width
     height = screen.height
     if (width > height) {
-        result = "ordinateur";
+        result = false;
     } else {
-        result = "téléphone";
+        result = true;
     }
-    alert(result);
+    return(result);
+}
+
+if (resolution()){
+    document.getElementById("change").src = "phone.png";
 }
