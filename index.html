@@ -11,7 +11,23 @@
     margin-right: auto;
     width: 95%;
     }
-        
+    
+    .d-large {
+    display: block;
+    }
+    .d-small{
+    display:none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .d-large {
+        display: none;
+    }
+    .d-small{
+      display:block;
+      }
+    }
+ 
     body {
       background-color: rgb(30, 30, 30);
     }
@@ -24,8 +40,9 @@
 </head>
 <body>
   
-  <div class="image">
-    <img id="myImage" src="computer.png" class="image">
+  <div class="small">
+    <img id="img1" src="computer.png" class="image d-large">
+    <img id="img2" src="phone.png" class="image d-small">
   </div>
 
 </body>
